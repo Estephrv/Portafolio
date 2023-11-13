@@ -1,0 +1,52 @@
+.background-image {
+    background-image: url('../src/img/fondo4.jpeg');
+    background-size: cover;
+
+    object-fit: cover
+}
+
+.form-container {
+    padding: 2rem;
+    margin-top: 3rem;
+    border-radius: 8px;
+
+}
+.form-control {
+    border: 4px #69443C;
+    border-radius: 1rem;
+}
+
+
+.txt{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(77, 55, 50);
+}
+
+.navbar {
+    background-color: #E6CEB7;
+}
+.nav-link{
+    color: #69443C;
+}
+.header-title {
+    font-family: 'The Amsterdam', sans-serif;
+    color: #F9447F;
+    font-size: 48px; 
+    text-shadow: 2px 2px 4px #000000;
+}
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #69443C;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    
+}
+.send-btn a {
+    background-color: #69443C;
+}

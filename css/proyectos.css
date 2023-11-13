@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #E6CEB7;
+}
+.nav-link{
+    color: #69443C;
+}
+.header-title {
+    font-family: 'The Amsterdam', sans-serif;
+    color: #F9447F;
+    font-size: 48px; 
+}
+  
+.sub-title {
+    font-size: 1.5rem;
+    color: #69443C;
+    margin-bottom: 1rem;
+}
+
+.content {
+    font-size: 1rem;
+    color: rgb(77, 55, 50);
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

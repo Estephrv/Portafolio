@@ -1,0 +1,25 @@
+.txt{
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(77, 55, 50);
+}
+
+.navbar {
+    background-color: #E6CEB7;
+}
+.nav-link{
+    color: #69443C;
+}
+.card-img-top {
+width: 250px; 
+max-height: 250px;
+border: 9px solid rgb(104, 68, 68);
+margin: 0 auto;
+display: block;
+object-fit: cover;
+}
+.hobby-header {
+    font-family: 'The Amsterdam', sans-serif;
+    color: #F9447F;
+    font-size: 48px; 
+}

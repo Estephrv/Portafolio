@@ -1,0 +1,18 @@
+.header-title {
+    font-family: 'The Amsterdam', sans-serif;
+    color: #F9447F;
+    font-size: 48px; 
+}
+.txt{
+    text-align: justify;
+}
+.title-ht {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #69443C;
+}
+.navbar {
+    background-color: #E6CEB7;
+}
+.nav-link{
+    color: #69443C;
+}
