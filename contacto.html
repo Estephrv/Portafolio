@@ -13,6 +13,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://fonts.cdnfonts.com/css/the-amsterdam" rel="stylesheet">
 
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("TX84NnqQuH0R-Xe-m");
+        })();
+    </script>
+
 </head>
 
 <body class="background-image">
@@ -39,26 +47,35 @@
             <div class="text-center my-4">
                 <h1 class="header-title">Contáctame</h1>
             </div>
+            <section class="container-fluid1 p-4">
+                <div class="alert alert-danger fade show" style="display:none;" role="alert" id="alertValidaciones">
+                    <p id="alertValidacionesTexto"></p>
+            </section>
+            <section class="container-fluid1 p-4">
+                <div class="alert alert-success fade show" style="display:none;" role="alert" id="alertValidaciones1">
+                    <p id="Validaciones-envio"></p>
+            </section>
             <div class="col-md-6">
                 <div class="form-container">
                     <form>
                         <div class="form-group">
                             <input type="text" class="form-control" id="nombre" placeholder="Nombre:"
-                            style="border: 2px solid #69443C;border-radius: 2rem;">
+                                style="border: 2px solid #69443C;border-radius: 2rem;">
                         </div>
                         <div class="form-group">
                             <input type="email" class="form-control mt-4" id="correo" placeholder="Correo:"
-                            style="border: 2px solid #69443C;border-radius: 2rem;">
+                                style="border: 2px solid #69443C;border-radius: 2rem;">
                         </div>
                         <div class="form-group">
                             <textarea class="form-control mt-4" id="mensaje" rows="3" placeholder="Mensaje:"
-                            style="border: 2px solid #69443C;border-radius: 2rem;"></textarea>
+                                style="border: 2px solid #69443C;border-radius: 2rem;"></textarea>
                         </div>
-                        <a href="index.html" type="submit" class="btn center send-btn mt-2"
-                            style="background-color:antiquewhite">Enviar</a>
+                        <a href="index.html" id="send" type="submit" class="btn center send-btn mt-2"
+                            style="background-color:antiquewhite">
+                            Enviar</a>
                     </form>
                 </div>
-        
+
                 <div class="social-icons">
                     <a href="https://github.com/Estephrv" class="fab fa-github-square"></a>
                     <a href="https://instagram.com/estephrv" class="fab fa-instagram-square"></a>
@@ -71,6 +88,9 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
 
+    <script src="js/contacto.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
