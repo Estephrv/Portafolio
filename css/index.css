@@ -100,3 +100,8 @@
     bottom: 0%;
     }
 }
+
+.carousel-item img {
+    max-height: 90vh; 
+    width: auto; 
+}
